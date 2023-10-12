@@ -1,0 +1,6 @@
+model_checkpoint_path: "GSC.ckpt-60"
+all_model_checkpoint_paths: "GSC.ckpt-20"
+all_model_checkpoint_paths: "GSC.ckpt-30"
+all_model_checkpoint_paths: "GSC.ckpt-40"
+all_model_checkpoint_paths: "GSC.ckpt-50"
+all_model_checkpoint_paths: "GSC.ckpt-60"
