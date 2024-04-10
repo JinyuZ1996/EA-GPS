@@ -18,7 +18,7 @@
 4. scipy = 1.5.2
 5. pandas = 0.20.3
 6. numpy = 1.16.0
-### **Source code of EA-GPT**
+### **Source code of EA-GPS**
 1. The definition of main components see: EA_GPS/GPS_Model.py.
 2. The parameter-settings see: EA_GPS/GPS_Config.py.
 3. The training process see: EA_GPS/GPS_Train.py.
