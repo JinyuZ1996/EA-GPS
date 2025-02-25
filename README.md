@@ -1,28 +1,24 @@
-# **EA-GPS** 
+# **EA-GPS (TensorFlow)** 
 
 <p align="left">
-  <img src='https://img.shields.io/badge/python-3.6+-blue'>
-  <img src='https://img.shields.io/badge/tensorflow-1.12+-blue'>
-  <img src='https://img.shields.io/badge/numPy-1.16+-brightgreen'>
-  <img src='https://img.shields.io/badge/pandas-0.20+-brightgreen'>
-  <img src='https://img.shields.io/badge/scipy-1.5+-brightgreen'>
+  <img src='https://img.shields.io/badge/python-3.8.18-blue'>
+  <img src='https://img.shields.io/badge/TensorFlow-1.15.4+nv20.12-brightgreen'>
 </p> 
 
 ## **Overall description** 
-- Here presents the code of EA-GPS. The code is attached to our paper: " **Lightweight yet Efficient: An External Attentive Graph Convolution Network with Prompt-Tuning for Sequential Recommendation" (WWW 2024)** ". If you want to use our codes and datasets in your research, please cite our paper. If you want to follow our work, please consider to download the paper on Arxiv: [https://arxiv.org/abs/----.----](https://arxiv.org/abs/----.----). 
-## **Code description** 
-### **Vesion of implementations and packages**
-1. python = 3.6.0
-2. tensorflow-gpu = 1.12.0
-3. tensorboard = 1.12.2
-4. scipy = 1.5.2
-5. pandas = 0.20.3
-6. numpy = 1.16.0
-### **Source code of EA-GPS**
-1. The definition of main components see: EA_GPS/GPS_Model.py.
-2. The parameter-settings see: EA_GPS/GPS_Config.py.
-3. The training process see: EA_GPS/GPS_Train.py.
-4. To run the training method see: EA_GPS/GPS_Main.py.
-5. And the training log printer was defined in: EA_GPS/GPS_Printer.py.
+- Here presents the code of EA-GPS. The code is attached to our paper: " **Lightweight yet Efficient: An External Attentive Graph Convolutional Network with Positional Prompts for Sequential Recommendation" (TOIS 2025)** ". If you want to use our codes and datasets in your research, please cite our paper (The paper is now on the proofing stage. Please refer to the Arxiv version first). If you want to follow our work, please consider to download the paper on Arxiv: [https://arxiv.org/abs/2502.15331](https://arxiv.org/abs/2502.15331). 
 
--- The directory named Checkpoint is used to save the trained recommenders and  to evaluate the parameter scale.
+- The datasets are available at [https://bitbucket.org/jinyuz1996/ea-gps-data/src/main/](https://bitbucket.org/jinyuz1996/ea-gps-data/src/main/ "https://bitbucket.org/jinyuz1996/ea-gps-data/src/main/").
+## **Code description** 
+### **Implementation details**
+We implemented EA-GPS with Tensorflow and accelerated the model training using an Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz CPU and NVIDIA RTX 3090 (24G) GPU. The operating system is Ubuntu 22.04, the system memory is 128G, and the coding platform is Pycharm.
+
+### **Vesion of packages**
+The following versions of the programming language and libraries are used in this project:
+
+1. python = 3.8.18
+2. nvidia-tensorflow = 1.15.4+nv20.12
+3. tensorboard = 1.15.4
+4. scipy = 1.7.3
+5. pandas = 1.1.5
+6. numpy = 1.17.3
